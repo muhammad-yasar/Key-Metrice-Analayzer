@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+kma/
+
+# Trained model files (too large for git — use Git LFS or store separately)
+*.pt
+*.pkl
+umap_reducer.pkl
+level_classifier.pt
+class_classifier.pt
+
+# Data files with potentially sensitive policy content
+exported_files/
+annotated_excel_file/
+training_data.csv
+training_data_stats.json
+
+# Keep synthetic data (no sensitive content)
+!data/synthetic/synthetic_rare_classes.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
