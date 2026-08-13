@@ -271,7 +271,7 @@ If you use this pipeline in your research, please cite:
   author    = {Khan, Muhammad Yasar},
   title     = {KMA: Key Metric Analyser for Environmental Policy Documents},
   year      = {2025},
-  url       = {https://github.com/YOUR_USERNAME/kma-classifier},
+  url       = {https://github.com/muhammad-yasar/Key-Metrice-Analayzer},
   note      = {Part of the EU LIFE MultiPeat / ASPECT project,
                Insight SFI Research Centre, University of Galway}
 }
